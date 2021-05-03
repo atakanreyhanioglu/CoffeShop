@@ -9,31 +9,27 @@
 
 Kendi Projenize Mernisi dahil etmek için lütfen adımları takip ediniz.
 
-### Adım 1- Java 8 jdk indirip kurulumu tamamlayınız.-->
+### Adım 1- Java 8 jdk indirip kurulumu tamamlayınız.
 [Java 8 JDK](https://www.oracle.com/tr/java/technologies/javase/javase-jdk8-downloads.html)
 
 * * *
 
-### Adım 2- Window -> Preferences
+### Adım 2- Window -> Preferences --> Arama kısmına jre yazın ve Execution Enviroments ' a tıklayıp JavaSE 1.8 i seçerek kaydediniz.
 <img src="https://github.com/atakanreyhanioglu/CoffeShop/blob/main/MernisDahilEtmeAdimlari/1.png">
-### Arama kısmına jre yazın ve Execution Enviroments ' a tıklayıp JavaSE 1.8 i seçerek kaydediniz.
 <img src="https://github.com/atakanreyhanioglu/CoffeShop/blob/main/MernisDahilEtmeAdimlari/2.png">
 <img src="https://github.com/atakanreyhanioglu/CoffeShop/blob/main/MernisDahilEtmeAdimlari/3.png">
 
 * * *
 
-### Adım 3- Kendi projeniz üzerinde sağ tıklayarak Properties(özellikler) açınız.
+### Adım 3- Kendi projeniz üzerinde sağ tıklayarak Properties(özellikler) açınız. Java Compiler resimde kırmızı seçili alandan tik işaretini kaldırınız ve java 1.8 i seçip kayıt ediniz.
 <img src="https://github.com/atakanreyhanioglu/CoffeShop/blob/main/MernisDahilEtmeAdimlari/4.png">
-### Java Compiler resimde kırmızı seçili alandan tik işaretini kaldırınız ve java 1.8 i seçip kayıt ediniz.
 <img src="https://github.com/atakanreyhanioglu/CoffeShop/blob/main/MernisDahilEtmeAdimlari/5.png">
 
 * * *
 
-### Adım 4- Kendi projeniz üzerinde sağ tık -> New -> Others seçiniz.
+### Adım 4- Kendi projeniz üzerinde sağ tık -> New -> Others seçiniz. Arama kısmına web service yazıp Web Service Client i seçip Next e tıklayınız. "https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx?WSDL" Url yi yapıştırınız ve kayıt ediniz.
 <img src="https://github.com/atakanreyhanioglu/CoffeShop/blob/main/MernisDahilEtmeAdimlari/6.png">
-### Arama kısmına web service yazıp Web Service Client i seçip Next e tıklayınız.
 <img src="https://github.com/atakanreyhanioglu/CoffeShop/blob/main/MernisDahilEtmeAdimlari/7.png">
-### "https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx?WSDL" Url yi yapıştırınız ve kayıt ediniz.
 <img src="https://github.com/atakanreyhanioglu/CoffeShop/blob/main/MernisDahilEtmeAdimlari/8.png">
 
 * * *
