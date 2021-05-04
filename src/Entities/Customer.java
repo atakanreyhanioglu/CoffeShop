@@ -7,16 +7,16 @@ public class Customer implements IEntity{
 	private int id;
 	private String firstName;
 	private String lastName;
-	private int DateOfBirth;
-	private String NationalityId;
+	private int dateOfBirth;
+	private String nationalityId;
 	public Customer(int id, String firstName, String lastName, 
 			int dateOfBirth, String nationalityId) {
 		
 		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
-		DateOfBirth = dateOfBirth;
-		NationalityId = nationalityId;
+		this.dateOfBirth = dateOfBirth;
+		this.nationalityId = nationalityId;
 	}
 	public int getId() {
 		return id;
@@ -37,15 +37,15 @@ public class Customer implements IEntity{
 		this.lastName = lastName;
 	}
 	public int getDateOfBirth() {
-		return DateOfBirth;
+		return dateOfBirth;
 	}
 	public void setDateOfBirth(int dateOfBirth) {
-		DateOfBirth = dateOfBirth;
+		this.dateOfBirth = dateOfBirth;
 	}
 	public String getNationalityId() {
-		return NationalityId;
+		return nationalityId;
 	}
 	public void setNationalityId(String nationalityId) {
-		NationalityId = nationalityId;
+		this.nationalityId = nationalityId;
 	}
 }
